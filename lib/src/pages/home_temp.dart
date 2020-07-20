@@ -19,21 +19,21 @@ class HomePageTempo extends StatelessWidget {
     ); 
   }
   
-  List <Widget> _crearItems(){
+  // List <Widget> _crearItems(){
 
-  List<Widget>lista=new List<Widget>();
+  // List<Widget>lista=new List<Widget>();
 
-  for (String opt in opciones) {
-    final tempWidget=ListTile(
-    title:Text(opt),
-    );
+  // for (String opt in opciones) {
+  //   final tempWidget=ListTile(
+  //   title:Text(opt),
+  //   );
 
-    lista..add(tempWidget);
-    lista..add(Divider(color: Colors.deepPurple.shade900,));
+  //   lista..add(tempWidget);
+  //   lista..add(Divider(color: Colors.deepPurple.shade900,));
     
-  }
-    return lista;
-  }
+  // }
+  //   return lista;
+  // }
 
   List<Widget> _creatItemsCorta(){
   return opciones.map((item){
